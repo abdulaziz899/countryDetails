@@ -1,0 +1,53 @@
+.countryNames{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(38, 228, 21);
+    text-align: center;
+}
+.countryCapital{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(24, 231, 231);
+    text-align: center;
+}
+.perCountryName{
+    background-color: rgb(92, 112, 112);
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+#countryName{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+}
+.perCountryName button{
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#countriesDetails{
+    width: 600px;
+    height:auto;
+
+    padding: 20px;
+    display: none;
+    border-radius: 2px;
+    background-color: rgb(104, 119, 119);
+    color: rgb(13, 209, 235);
+    text-align: center;
+    font-size: 30px;
+    margin: 0% auto;
+   
+}
+#countriesDetails img{
+    width: 400px;
+    height: auto;
+    box-shadow: 10px 10px 30px whitesmoke;
+}
